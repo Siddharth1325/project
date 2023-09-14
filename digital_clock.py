@@ -10,7 +10,7 @@ window = Tk()
 window.title("Digital Clock")
 window.geometry("600x300")
 
-label = Label(window, font=("Arial Black", 78, "bold"), bg="red", fg="white")
+label = Label(window, text="Welcome" font=("Arial Black", 78, "bold"), bg="red", fg="white")
 label.pack(pady=100)
 
 time()  # Start the clock
